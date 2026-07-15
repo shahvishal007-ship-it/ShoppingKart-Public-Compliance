@@ -2,12 +2,14 @@
 
 Static HTML pages for Module 105 Play Store compliance readiness.
 
-**Local folder:** `C:\Users\Admin\PROJECTS\ShoppingKart_Public_Compliance`
+**Repository:** https://github.com/shahvishal007-ship-it/ShoppingKart-Public-Compliance
+
+**Live site:** https://shahvishal007-ship-it.github.io/ShoppingKart-Public-Compliance/
 
 ## Pages
 
-| File | Public path |
-|------|-------------|
+| File | Public URL |
+|------|------------|
 | `privacy-policy.html` | `/privacy-policy.html` |
 | `public/account-deletion.html` | `/public/account-deletion.html` |
 | `support.html` | `/support.html` |
@@ -21,5 +23,5 @@ Developer contact: **shahvishal007@gmail.com**
 
 ## Notes
 
-- Account deletion web forms remain disabled; users can request deletion via the mailto link on the deletion page.
-- ShoppingKartApp repository, signing, upload, and founder-approval locks are unchanged.
+- Account deletion requests are handled by email via the deletion page mailto link.
+- Privacy Policy effective date: **16 July 2026**.

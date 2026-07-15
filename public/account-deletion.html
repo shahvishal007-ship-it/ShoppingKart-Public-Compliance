@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Account &amp; Data Deletion — Shopping Kart / Smart Kart (Draft)</title>
+  <title>Account &amp; Data Deletion — Shopping Kart / Smart Kart</title>
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
@@ -18,15 +18,10 @@
   </header>
   <main>
     <h1>Account &amp; Data Deletion</h1>
-    <p class="draft-banner">
-      <strong>Draft — not published.</strong>
-      This page mirrors the Module 101 public deletion path (<code>/public/account-deletion</code>).
-      Forms are disabled until HTTPS hosting and backend routes are provisioned.
-    </p>
 
     <p>
       You can request deletion of account-linked data associated with Shopping Kart / Smart Kart.
-      After verification, the following categories may be removed:
+      After we verify your request, the following categories may be removed:
     </p>
     <ul>
       <li>Profile</li>
@@ -37,35 +32,6 @@
       <li>Linked customer records</li>
     </ul>
 
-    <p class="notice">
-      Synthetic verification only in test environments. No real OTP or SMS is sent.
-      Production deletion routes remain disabled by default outside approved test/development posture.
-    </p>
-
-    <section class="card">
-      <h2>Deletion request</h2>
-      <form action="/public/account-deletion/request" method="post">
-        <label for="userId">Account identifier</label>
-        <input id="userId" name="userId" required placeholder="synthetic-user-id" disabled />
-        <label for="reason">Optional reason</label>
-        <input id="reason" name="reason" maxlength="500" placeholder="Why you want your account deleted" disabled />
-        <div class="checkbox">
-          <input id="confirm" name="confirm" type="checkbox" value="true" required disabled />
-          <label for="confirm">I understand this action is irreversible after verification and deletion completes.</label>
-        </div>
-        <button type="submit" class="danger" disabled>Submit deletion request (disabled — draft)</button>
-      </form>
-    </section>
-
-    <section class="card">
-      <h2>Check request status</h2>
-      <form action="/public/account-deletion/status" method="get">
-        <label for="statusRequestId">Request ID</label>
-        <input id="statusRequestId" name="requestId" placeholder="opdel-user-..." disabled />
-        <button type="submit" disabled>View status (disabled — draft)</button>
-      </form>
-    </section>
-
     <section class="card">
       <h2>Request deletion by email</h2>
       <p>
@@ -75,6 +41,9 @@
       </p>
       <p>
         <a class="button-link" href="mailto:shahvishal007@gmail.com?subject=Shopping%20Kart%20account%20deletion%20request&amp;body=Please%20include%20your%20account%20identifier%20and%20confirmation%20that%20you%20want%20your%20account-linked%20data%20deleted.">Email deletion request</a>
+      </p>
+      <p class="notice">
+        This closed-test build uses email-based deletion requests. Include your account identifier so we can locate and remove your data.
       </p>
     </section>
 
@@ -87,7 +56,7 @@
     </section>
 
     <footer>
-      Shopping Kart / Smart Kart — draft account deletion page. Release and production hosting remain blocked.
+      Shopping Kart / Smart Kart — account and data deletion for the closed-test build.
     </footer>
   </main>
 </body>
