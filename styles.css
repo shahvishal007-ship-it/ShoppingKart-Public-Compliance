@@ -1,0 +1,157 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #142033;
+}
+
+header {
+  background: #142033;
+  color: #fff;
+  padding: 16px 20px;
+}
+
+header a {
+  color: #c8d9f0;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header nav {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d7e0ea;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+  box-shadow: 0 2px 8px rgba(20, 32, 51, 0.06);
+}
+
+.draft-banner {
+  background: #fff4e5;
+  border: 1px solid #f5c26b;
+  color: #7a4d00;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.notice {
+  background: #eef4ff;
+  border: 1px solid #b8cff5;
+  color: #1f3b66;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  border: 1px solid #d7e0ea;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #eef3f9;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 12px 0 6px;
+}
+
+input[type="text"],
+input:not([type]) {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #c5d0dc;
+  border-radius: 8px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+
+button,
+.button-link {
+  display: inline-block;
+  margin-top: 16px;
+  background: #1f4b8f;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button.danger {
+  background: #b42318;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+footer {
+  margin-top: 32px;
+  font-size: 0.85rem;
+  color: #5b6b7c;
+}
+
+@media (min-width: 640px) {
+  button {
+    width: auto;
+    min-width: 220px;
+  }
+}
