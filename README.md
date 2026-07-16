@@ -1,27 +1,25 @@
-# Shopping Kart / Smart Kart — Public Compliance
+# TOLZA Public Website & Compliance Hub — W01
 
-Static HTML pages for Module 105 Play Store compliance readiness.
+Static GitHub Pages website for the current TOLZA invitation-only closed test.
 
-**Repository:** https://github.com/shahvishal007-ship-it/ShoppingKart-Public-Compliance
+**Repository:** `ShoppingKart-Public-Compliance`
+**Live base URL:** `https://shahvishal007-ship-it.github.io/ShoppingKart-Public-Compliance/`
 
-**Live site:** https://shahvishal007-ship-it.github.io/ShoppingKart-Public-Compliance/
+## Public pages
 
-## Pages
+- `/` — Home
+- `/how-it-works.html` — How TOLZA works
+- `/privacy-policy.html` — Privacy Policy (Play Console URL preserved)
+- `/account-deletion.html` — Primary account-deletion page
+- `/public/account-deletion.html` — Legacy account-deletion URL preserved
+- `/support.html` — Support (Play Console URL preserved)
+- `/terms.html` — Terms of Use
+- `/faq.html` — FAQ
 
-| File | Public URL |
-|------|------------|
-| `privacy-policy.html` | `/privacy-policy.html` |
-| `public/account-deletion.html` | `/public/account-deletion.html` |
-| `support.html` | `/support.html` |
-| `index.html` | `/` |
+## Current release boundary
 
-## Branding
+The current Android Alpha uses synthetic demonstration data. It has no live retailer APIs, checkout, payment, advertising, Advertising ID use, or production backend. The website is static and has no account registration, analytics tracker, advertising cookie, or database.
 
-Temporary name: **Shopping Kart / Smart Kart**
+## Deployment
 
-Developer contact: **shahvishal007@gmail.com**
-
-## Notes
-
-- Account deletion requests are handled by email via the deletion page mailto link.
-- Privacy Policy effective date: **16 July 2026**.
+See `README_DEPLOYMENT.md`. Publish only after founder approval.

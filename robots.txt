@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shahvishal007-ship-it.github.io/ShoppingKart-Public-Compliance/sitemap.xml
